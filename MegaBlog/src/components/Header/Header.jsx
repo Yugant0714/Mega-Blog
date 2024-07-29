@@ -1,4 +1,3 @@
-
 import React from 'react'
 import {Container, Logo, LogoutBtn} from '../index'
 import { Link } from 'react-router-dom'
@@ -17,12 +16,12 @@ function Header() {
     }, 
     {
       name: "Login",
-      slug: "/login",
+      slug: '/login',
       active: !authStatus,
   },
   {
       name: "Signup",
-      slug: "/signup",
+      slug: '/signup',
       active: !authStatus,
   },
   {
